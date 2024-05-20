@@ -2,9 +2,18 @@
 
 This project segment focuses on the analysis of the `quine` dataset from the `MASS` package in R, specifically examining the number of days students were absent from school (`Days`). A Gamma regression model with a log link was employed to understand the impact of various predictors on absenteeism.
 
-## Project Overview
+## Objective
 
-The `quine` dataset contains information on school absences and other factors. The main goal is to determine the best statistical model to explain the variability in the `Days` variable, comparing Gamma regression with other models like Negative Binomial and Log-Normal.
+The main goal is to determine the best statistical model to explain the variability in the `Days` variable, comparing Gamma regression with other models like Negative Binomial and Log-Normal.
+
+## Dataset Introduction
+
+The [quine dataset]() contains data on the absenteeism among elementary school children. It includes several key variables:
+- **Days:** The number of days a student was absent during the school year.
+- **Eth:** The ethnic background of the student, categorized into groups.
+- **Sex:** The gender of the student, recorded as male or female.
+- **Age:** The age group of the student, indicating their grade level.
+- **Lrn:** The learning status of the student, indicating if they are a slow or fast learner.
 
 ## Methodology
 

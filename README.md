@@ -6,9 +6,9 @@ This project segment focuses on the analysis of the `quine` dataset from the `MA
 
 The main goal is to determine the best statistical model to explain the variability in the `Days` variable, comparing Gamma regression with other models like Negative Binomial and Log-Normal.
 
-## Dataset Introduction
+## Data
 
-The [quine dataset]() contains data on the absenteeism among elementary school children. It includes several key variables:
+The [quine dataset](https://www.rdocumentation.org/packages/MASS/versions/7.3-60.0.1/topics/quine) contains data on the absenteeism among elementary school children. It includes several key variables:
 - **Days:** The number of days a student was absent during the school year.
 - **Eth:** The ethnic background of the student, categorized into groups.
 - **Sex:** The gender of the student, recorded as male or female.
